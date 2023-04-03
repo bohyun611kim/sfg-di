@@ -23,16 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06cfa5c3-4f20-4b38-a0a8-c2a4bb3bf94a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/service/ConstructorGreetingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/service/PropertyInjectedGreetingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/service/SetterGreetingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/service/PrimaryGreetingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/SfgDiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/SfgDiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controller/ConstructorInjectedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controller/ConstructorInjectedController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controller/PropertyInjectedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controller/PropertyInjectedController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controller/SetterInjectedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controller/SetterInjectedController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/SfgDiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/SfgDiApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/controller/ConstructorInjectedController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/controller/ConstructorInjectedController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controller/MyController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,10 +183,10 @@
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
     <state x="1096" y="424" key="#com.intellij.ide.macro.MacrosDialog/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680486750213" />
-    <state x="1122" y="425" key="#com.intellij.ide.util.MemberChooser" timestamp="1680498231422">
+    <state x="1122" y="425" key="#com.intellij.ide.util.MemberChooser" timestamp="1680499944562">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
-    <state x="1122" y="425" key="#com.intellij.ide.util.MemberChooser/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680498231422" />
+    <state x="1122" y="425" key="#com.intellij.ide.util.MemberChooser/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680499944562" />
     <state x="1078" y="534" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1680486845274">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
@@ -237,9 +231,9 @@
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
     <state x="268" y="294" width="1577" height="851" key="SettingsEditor/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680489806435" />
-    <state x="980" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1680488571193">
+    <state x="980" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1680499929425">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
-    <state x="980" y="325" width="672" height="678" key="search.everywhere.popup/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680488571193" />
+    <state x="980" y="325" width="672" height="678" key="search.everywhere.popup/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680499929425" />
   </component>
 </project>

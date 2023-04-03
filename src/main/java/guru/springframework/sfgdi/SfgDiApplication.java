@@ -19,9 +19,8 @@ public class SfgDiApplication {
         ApplicationContext ctx = SpringApplication.run(SfgDiApplication.class, args);
 
         MyController myController = (MyController) ctx.getBean("myController");
-
+        System.out.println("--- Primary bean");
         String greeting = myController.sayHello();
-
         System.out.println(greeting);
 
         System.out.println("------ Property");
