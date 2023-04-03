@@ -23,15 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06cfa5c3-4f20-4b38-a0a8-c2a4bb3bf94a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controller/I18nController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/service/I18NSpanishService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/service/I18nEnglishGreetingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controller/PetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/service/CatPetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/service/DogPetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/service/PetService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/SfgDiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/SfgDiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controller/MyController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/SfgDiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/SfgDiApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/controller/MyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/controller/MyController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +120,7 @@
       <workItem from="1680484457754" duration="215000" />
       <workItem from="1680484686884" duration="6443000" />
       <workItem from="1680497054790" duration="94000" />
-      <workItem from="1680502805528" duration="3955000" />
+      <workItem from="1680502805528" duration="5930000" />
     </task>
     <task id="LOCAL-00001" summary="add MyController sayHello">
       <created>1680488259371</created>
@@ -151,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680495140667</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add profile sample">
+      <created>1680508133601</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680508133601</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +180,8 @@
     <MESSAGE value="add ConstructorInjectedController-sample-#01" />
     <MESSAGE value="add setterInjectedController-sample-#02" />
     <MESSAGE value="add setterInjectedController-sample-#02-tiny update" />
-    <option name="LAST_COMMIT_MESSAGE" value="add setterInjectedController-sample-#02-tiny update" />
+    <MESSAGE value="add profile sample" />
+    <option name="LAST_COMMIT_MESSAGE" value="add profile sample" />
   </component>
   <component name="WindowStateProjectService">
     <state x="997" y="543" key="#Notifications" timestamp="1680484696153">
@@ -193,10 +200,10 @@
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
     <state x="1096" y="424" key="#com.intellij.ide.macro.MacrosDialog/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680486750213" />
-    <state x="1122" y="425" key="#com.intellij.ide.util.MemberChooser" timestamp="1680505897241">
+    <state x="1122" y="425" key="#com.intellij.ide.util.MemberChooser" timestamp="1680509081124">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
-    <state x="1122" y="425" key="#com.intellij.ide.util.MemberChooser/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680505897241" />
+    <state x="1122" y="425" key="#com.intellij.ide.util.MemberChooser/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680509081124" />
     <state x="1078" y="534" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1680486845274">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
@@ -209,22 +216,22 @@
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
     <state x="836" y="474" key="FileChooserDialogImpl/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680489681887" />
-    <state width="2445" height="414" key="GridCell.Tab.0.bottom" timestamp="1680508021467">
+    <state width="2445" height="414" key="GridCell.Tab.0.bottom" timestamp="1680509582629">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
-    <state width="2445" height="414" key="GridCell.Tab.0.bottom/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680508021467" />
-    <state width="2445" height="414" key="GridCell.Tab.0.center" timestamp="1680508021467">
+    <state width="2445" height="414" key="GridCell.Tab.0.bottom/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680509582629" />
+    <state width="2445" height="414" key="GridCell.Tab.0.center" timestamp="1680509582628">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
-    <state width="2445" height="414" key="GridCell.Tab.0.center/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680508021467" />
-    <state width="2445" height="414" key="GridCell.Tab.0.left" timestamp="1680508021467">
+    <state width="2445" height="414" key="GridCell.Tab.0.center/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680509582628" />
+    <state width="2445" height="414" key="GridCell.Tab.0.left" timestamp="1680509582628">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
-    <state width="2445" height="414" key="GridCell.Tab.0.left/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680508021467" />
-    <state width="2445" height="414" key="GridCell.Tab.0.right" timestamp="1680508021467">
+    <state width="2445" height="414" key="GridCell.Tab.0.left/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680509582628" />
+    <state width="2445" height="414" key="GridCell.Tab.0.right" timestamp="1680509582629">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
-    <state width="2445" height="414" key="GridCell.Tab.0.right/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680508021467" />
+    <state width="2445" height="414" key="GridCell.Tab.0.right/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680509582629" />
     <state width="2445" height="508" key="GridCell.Tab.1.bottom" timestamp="1680507484937">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
