@@ -23,9 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06cfa5c3-4f20-4b38-a0a8-c2a4bb3bf94a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/service/ConstructorGreetingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/service/PropertyInjectedGreetingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/service/SetterGreetingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/SfgDiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/SfgDiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controller/ConstructorInjectedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controller/ConstructorInjectedController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controller/PropertyInjectedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controller/PropertyInjectedController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controller/SetterInjectedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controller/SetterInjectedController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/SfgDiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/SfgDiApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/controller/ConstructorInjectedController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/controller/ConstructorInjectedController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +78,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="guru.springframework.sfgdi.service" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\dev\intellij-workspace\udemy-spring\sfg-di" />
     </key>
@@ -80,6 +90,17 @@
       <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgdi.SfgDiApplication" />
       <module name="sfg-di" />
       <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,10 +189,10 @@
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
     <state x="1096" y="424" key="#com.intellij.ide.macro.MacrosDialog/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680486750213" />
-    <state x="1122" y="425" key="#com.intellij.ide.util.MemberChooser" timestamp="1680489168359">
+    <state x="1122" y="425" key="#com.intellij.ide.util.MemberChooser" timestamp="1680498231422">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
-    <state x="1122" y="425" key="#com.intellij.ide.util.MemberChooser/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680489168359" />
+    <state x="1122" y="425" key="#com.intellij.ide.util.MemberChooser/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680498231422" />
     <state x="1078" y="534" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1680486845274">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
@@ -180,22 +201,22 @@
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
     <state x="836" y="474" key="FileChooserDialogImpl/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680489681887" />
-    <state width="2445" height="414" key="GridCell.Tab.0.bottom" timestamp="1680489594781">
+    <state width="2445" height="414" key="GridCell.Tab.0.bottom" timestamp="1680498743511">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
-    <state width="2445" height="414" key="GridCell.Tab.0.bottom/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680489594781" />
-    <state width="2445" height="414" key="GridCell.Tab.0.center" timestamp="1680489594781">
+    <state width="2445" height="414" key="GridCell.Tab.0.bottom/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680498743511" />
+    <state width="2445" height="414" key="GridCell.Tab.0.center" timestamp="1680498743511">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
-    <state width="2445" height="414" key="GridCell.Tab.0.center/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680489594781" />
-    <state width="2445" height="414" key="GridCell.Tab.0.left" timestamp="1680489594781">
+    <state width="2445" height="414" key="GridCell.Tab.0.center/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680498743511" />
+    <state width="2445" height="414" key="GridCell.Tab.0.left" timestamp="1680498743511">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
-    <state width="2445" height="414" key="GridCell.Tab.0.left/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680489594781" />
-    <state width="2445" height="414" key="GridCell.Tab.0.right" timestamp="1680489594781">
+    <state width="2445" height="414" key="GridCell.Tab.0.left/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680498743511" />
+    <state width="2445" height="414" key="GridCell.Tab.0.right" timestamp="1680498743511">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
-    <state width="2445" height="414" key="GridCell.Tab.0.right/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680489594781" />
+    <state width="2445" height="414" key="GridCell.Tab.0.right/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680498743511" />
     <state width="2445" height="414" key="GridCell.Tab.1.bottom" timestamp="1680485617433">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
