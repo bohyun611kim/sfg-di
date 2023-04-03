@@ -2,6 +2,7 @@ package guru.springframework.sfgdi;
 
 import guru.springframework.sfgdi.controller.ConstructorInjectedController;
 import guru.springframework.sfgdi.controller.MyController;
+import guru.springframework.sfgdi.controller.SetterInjectedController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -17,9 +18,13 @@ public class SfgDiApplication {
     String greeting = myController.sayHello();
     System.out.println(greeting);
 
-    System.out.println("--- constructorInjectedController");
+    System.out.println("--- constructor");
     ConstructorInjectedController constructorInjectedController = ctx.getBean(guru.springframework.sfgdi.controller.ConstructorInjectedController.class);
     System.out.println(constructorInjectedController.getGreeting());
+
+    System.out.println("--- setter");
+    SetterInjectedController setterInjectedController = (SetterInjectedController)ctx.getBean("setterInjectedController");
+    System.out.println(setterInjectedController.getGreeting());
 
   }
 
