@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
  * Created by kim on 04/03/23
  */
 
-@Profile("cat")
+
 @Service
 public class CatPetService implements PetService {
 
