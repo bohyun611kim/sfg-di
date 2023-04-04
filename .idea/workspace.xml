@@ -23,17 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06cfa5c3-4f20-4b38-a0a8-c2a4bb3bf94a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/config/GreetingServiceConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/SfgDiApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/controller/ConstructorInjectedController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/controller/MyController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/controller/PropertyInjectedController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/controller/SetterInjectedController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/service/GreetingService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/service/GreetingServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/SfgDiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/SfgDiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/service/ConstructorGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/service/ConstructorGreetingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/service/PropertyInjectedGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/service/PropertyInjectedGreetingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/service/SetterGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/service/SetterGreetingService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +82,7 @@
       <recent name="C:\dev\intellij-workspace\udemy-spring\sfg-di" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SfgDiApplicationTests">
+  <component name="RunManager" selected="Application.SfgDiApplication">
     <configuration name="SfgDiApplication" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -333,22 +328,22 @@
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
     <state x="836" y="474" key="FileChooserDialogImpl/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680489681887" />
-    <state width="2445" height="355" key="GridCell.Tab.0.bottom" timestamp="1680574140837">
+    <state width="2445" height="355" key="GridCell.Tab.0.bottom" timestamp="1680582759348">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
-    <state width="2445" height="355" key="GridCell.Tab.0.bottom/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680574140837" />
-    <state width="2445" height="355" key="GridCell.Tab.0.center" timestamp="1680574140837">
+    <state width="2445" height="355" key="GridCell.Tab.0.bottom/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680582759348" />
+    <state width="2445" height="355" key="GridCell.Tab.0.center" timestamp="1680582759348">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
-    <state width="2445" height="355" key="GridCell.Tab.0.center/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680574140837" />
-    <state width="2445" height="355" key="GridCell.Tab.0.left" timestamp="1680574140837">
+    <state width="2445" height="355" key="GridCell.Tab.0.center/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680582759348" />
+    <state width="2445" height="355" key="GridCell.Tab.0.left" timestamp="1680582759348">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
-    <state width="2445" height="355" key="GridCell.Tab.0.left/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680574140837" />
-    <state width="2445" height="355" key="GridCell.Tab.0.right" timestamp="1680574140837">
+    <state width="2445" height="355" key="GridCell.Tab.0.left/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680582759348" />
+    <state width="2445" height="355" key="GridCell.Tab.0.right" timestamp="1680582759348">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
-    <state width="2445" height="355" key="GridCell.Tab.0.right/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680574140837" />
+    <state width="2445" height="355" key="GridCell.Tab.0.right/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680582759348" />
     <state width="2445" height="508" key="GridCell.Tab.1.bottom" timestamp="1680511344386">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
