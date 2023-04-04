@@ -23,12 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06cfa5c3-4f20-4b38-a0a8-c2a4bb3bf94a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/config/GreetingServiceConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/SfgDiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/SfgDiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/service/ConstructorGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/service/ConstructorGreetingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/service/PropertyInjectedGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/service/PropertyInjectedGreetingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/service/SetterGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/service/SetterGreetingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/config/GreetingServiceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/config/GreetingServiceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,6 +202,8 @@
       <workItem from="1680571995584" duration="2131000" />
       <workItem from="1680574955073" duration="264000" />
       <workItem from="1680575233553" duration="349000" />
+      <workItem from="1680582776647" duration="577000" />
+      <workItem from="1680583371988" duration="656000" />
     </task>
     <task id="LOCAL-00001" summary="add MyController sayHello">
       <created>1680488259371</created>
@@ -328,22 +327,22 @@
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
     <state x="836" y="474" key="FileChooserDialogImpl/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680489681887" />
-    <state width="2445" height="355" key="GridCell.Tab.0.bottom" timestamp="1680582759348">
+    <state width="2445" height="355" key="GridCell.Tab.0.bottom" timestamp="1680584026043">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
-    <state width="2445" height="355" key="GridCell.Tab.0.bottom/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680582759348" />
-    <state width="2445" height="355" key="GridCell.Tab.0.center" timestamp="1680582759348">
+    <state width="2445" height="355" key="GridCell.Tab.0.bottom/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680584026043" />
+    <state width="2445" height="355" key="GridCell.Tab.0.center" timestamp="1680584026043">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
-    <state width="2445" height="355" key="GridCell.Tab.0.center/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680582759348" />
-    <state width="2445" height="355" key="GridCell.Tab.0.left" timestamp="1680582759348">
+    <state width="2445" height="355" key="GridCell.Tab.0.center/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680584026043" />
+    <state width="2445" height="355" key="GridCell.Tab.0.left" timestamp="1680584026043">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
-    <state width="2445" height="355" key="GridCell.Tab.0.left/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680582759348" />
-    <state width="2445" height="355" key="GridCell.Tab.0.right" timestamp="1680582759348">
+    <state width="2445" height="355" key="GridCell.Tab.0.left/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680584026043" />
+    <state width="2445" height="355" key="GridCell.Tab.0.right" timestamp="1680584026043">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
-    <state width="2445" height="355" key="GridCell.Tab.0.right/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680582759348" />
+    <state width="2445" height="355" key="GridCell.Tab.0.right/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680584026043" />
     <state width="2445" height="508" key="GridCell.Tab.1.bottom" timestamp="1680511344386">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
