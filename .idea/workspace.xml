@@ -23,9 +23,86 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06cfa5c3-4f20-4b38-a0a8-c2a4bb3bf94a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/service/LifeCycleDemoBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/pets/CatPetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/pets/DogPetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/pets/PetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/guru/springframework/sfgdi/controllers/ConstructorInjectedControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/guru/springframework/sfgdi/controllers/PropertyInjectedControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/guru/springframework/sfgdi/controllers/SetterInjectedControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/guru/springframework/sfgdi/controllers/SfgDiApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_200.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_9_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sfg-di.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sfg-di.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controller/PetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controller/PetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/service/ConstructorGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/service/ConstructorGreetingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring5webapp-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring5webapp-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-04-03T10-04-35_098-jvmRun1.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-guru.springframework.spring5webapp.Spring5webappApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/guru.springframework.spring5webapp.Spring5webappApplicationTests.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +123,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Users\dev-001\.m2\wrapper\dists\apache-maven-3.5.0-bin\6ps54u5pnnbbpr6ds9rppcc7iv\apache-maven-3.5.0" />
+        <option name="mavenHome" value="$USER_HOME$/.m2/wrapper/dists/apache-maven-3.5.0-bin/6ps54u5pnnbbpr6ds9rppcc7iv/apache-maven-3.5.0" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -64,11 +141,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/test" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.260181" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -78,7 +156,7 @@
       <recent name="C:\dev\intellij-workspace\udemy-spring\sfg-di" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SfgDiApplicationTests">
     <configuration name="SfgDiApplication" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -89,19 +167,99 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+    <configuration name="ConstructorInjectedControllerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sfg-di" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.sfgdi.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springframework.sfgdi.controllers" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgdi.controllers.ConstructorInjectedControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PropertyInjectedControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sfg-di" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.sfgdi.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springframework.sfgdi.controllers" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgdi.controllers.PropertyInjectedControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PropertyInjectedControllerTest.getGreeting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sfg-di" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.sfgdi.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springframework.sfgdi.controllers" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgdi.controllers.PropertyInjectedControllerTest" />
+      <option name="METHOD_NAME" value="getGreeting" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetterInjectedControllerTest.getGreeting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sfg-di" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.sfgdi.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springframework.sfgdi.controllers" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgdi.controllers.SetterInjectedControllerTest" />
+      <option name="METHOD_NAME" value="getGreeting" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SfgDiApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sfg-di" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.sfgdi.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springframework.sfgdi.controllers" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgdi.controllers.SfgDiApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SfgDiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sfg-di" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="guru.springframework.sfgdi.SfgDiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SfgDiApplicationTests" />
+        <item itemvalue="JUnit.PropertyInjectedControllerTest.getGreeting" />
+        <item itemvalue="JUnit.PropertyInjectedControllerTest" />
+        <item itemvalue="JUnit.SetterInjectedControllerTest.getGreeting" />
+        <item itemvalue="JUnit.ConstructorInjectedControllerTest (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -115,7 +273,10 @@
       <workItem from="1680484457754" duration="215000" />
       <workItem from="1680484686884" duration="6443000" />
       <workItem from="1680497054790" duration="94000" />
-      <workItem from="1680502805528" duration="6612000" />
+      <workItem from="1680502805528" duration="6817000" />
+      <workItem from="1680569578542" duration="511000" />
+      <workItem from="1680571114919" duration="860000" />
+      <workItem from="1680571995584" duration="2131000" />
     </task>
     <task id="LOCAL-00001" summary="add MyController sayHello">
       <created>1680488259371</created>
@@ -152,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680508133601</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add life cylcle demo">
+      <created>1680511202481</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680511202481</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,14 +364,18 @@
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
     <state x="1096" y="424" key="#com.intellij.ide.macro.MacrosDialog/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680486750213" />
-    <state x="1122" y="425" key="#com.intellij.ide.util.MemberChooser" timestamp="1680510780438">
+    <state x="1122" y="425" key="#com.intellij.ide.util.MemberChooser" timestamp="1680571628805">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
-    <state x="1122" y="425" key="#com.intellij.ide.util.MemberChooser/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680510780438" />
+    <state x="1122" y="425" key="#com.intellij.ide.util.MemberChooser/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680571628805" />
     <state x="1078" y="534" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1680486845274">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
     <state x="1078" y="534" key="#com.intellij.ide.util.TreeClassChooserDialog/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680486845274" />
+    <state x="899" y="398" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1680571296412">
+      <screen x="74" y="0" width="2486" height="1440" />
+    </state>
+    <state x="899" y="398" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680571296412" />
     <state x="1047" y="466" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1680503281865">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
@@ -212,45 +384,53 @@
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
     <state x="836" y="474" key="FileChooserDialogImpl/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680489681887" />
-    <state width="2445" height="355" key="GridCell.Tab.0.bottom" timestamp="1680510995107">
+    <state width="2445" height="355" key="GridCell.Tab.0.bottom" timestamp="1680574140837">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
-    <state width="2445" height="355" key="GridCell.Tab.0.bottom/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680510995107" />
-    <state width="2445" height="355" key="GridCell.Tab.0.center" timestamp="1680510995107">
+    <state width="2445" height="355" key="GridCell.Tab.0.bottom/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680574140837" />
+    <state width="2445" height="355" key="GridCell.Tab.0.center" timestamp="1680574140837">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
-    <state width="2445" height="355" key="GridCell.Tab.0.center/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680510995107" />
-    <state width="2445" height="355" key="GridCell.Tab.0.left" timestamp="1680510995107">
+    <state width="2445" height="355" key="GridCell.Tab.0.center/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680574140837" />
+    <state width="2445" height="355" key="GridCell.Tab.0.left" timestamp="1680574140837">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
-    <state width="2445" height="355" key="GridCell.Tab.0.left/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680510995107" />
-    <state width="2445" height="355" key="GridCell.Tab.0.right" timestamp="1680510995107">
+    <state width="2445" height="355" key="GridCell.Tab.0.left/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680574140837" />
+    <state width="2445" height="355" key="GridCell.Tab.0.right" timestamp="1680574140837">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
-    <state width="2445" height="355" key="GridCell.Tab.0.right/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680510995107" />
-    <state width="2445" height="508" key="GridCell.Tab.1.bottom" timestamp="1680507484937">
+    <state width="2445" height="355" key="GridCell.Tab.0.right/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680574140837" />
+    <state width="2445" height="508" key="GridCell.Tab.1.bottom" timestamp="1680511344386">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
-    <state width="2445" height="508" key="GridCell.Tab.1.bottom/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680507484937" />
-    <state width="2445" height="508" key="GridCell.Tab.1.center" timestamp="1680507484937">
+    <state width="2445" height="508" key="GridCell.Tab.1.bottom/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680511344386" />
+    <state width="2445" height="508" key="GridCell.Tab.1.center" timestamp="1680511344386">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
-    <state width="2445" height="508" key="GridCell.Tab.1.center/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680507484937" />
-    <state width="2445" height="508" key="GridCell.Tab.1.left" timestamp="1680507484937">
+    <state width="2445" height="508" key="GridCell.Tab.1.center/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680511344386" />
+    <state width="2445" height="508" key="GridCell.Tab.1.left" timestamp="1680511344386">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
-    <state width="2445" height="508" key="GridCell.Tab.1.left/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680507484937" />
-    <state width="2445" height="508" key="GridCell.Tab.1.right" timestamp="1680507484937">
+    <state width="2445" height="508" key="GridCell.Tab.1.left/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680511344386" />
+    <state width="2445" height="508" key="GridCell.Tab.1.right" timestamp="1680511344386">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
-    <state width="2445" height="508" key="GridCell.Tab.1.right/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680507484937" />
-    <state x="268" y="294" width="1577" height="851" key="SettingsEditor" timestamp="1680507895333">
+    <state width="2445" height="508" key="GridCell.Tab.1.right/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680511344386" />
+    <state x="847" y="375" key="Maven.ArtifactSearchDialog" timestamp="1680572488443">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
-    <state x="268" y="294" width="1577" height="851" key="SettingsEditor/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680507895333" />
-    <state x="980" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1680499929425">
+    <state x="847" y="375" key="Maven.ArtifactSearchDialog/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680572488443" />
+    <state x="268" y="294" width="1577" height="851" key="SettingsEditor" timestamp="1680572483208">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
-    <state x="980" y="325" width="672" height="678" key="search.everywhere.popup/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680499929425" />
+    <state x="268" y="294" width="1577" height="851" key="SettingsEditor/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680572483208" />
+    <state x="1084" y="497" key="chooseDestDirectoryDialog" timestamp="1680572569711">
+      <screen x="74" y="0" width="2486" height="1440" />
+    </state>
+    <state x="1084" y="497" key="chooseDestDirectoryDialog/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680572569711" />
+    <state x="980" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1680573499463">
+      <screen x="74" y="0" width="2486" height="1440" />
+    </state>
+    <state x="980" y="325" width="672" height="678" key="search.everywhere.popup/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680573499463" />
   </component>
 </project>
