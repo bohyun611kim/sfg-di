@@ -23,8 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06cfa5c3-4f20-4b38-a0a8-c2a4bb3bf94a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/SfgDiApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/controller/ConstructorInjectedController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/controller/MyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/controller/PropertyInjectedController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/controller/SetterInjectedController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/service/GreetingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/service/GreetingServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680511202481</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add git ignore 파일수정">
+      <created>1680575629745</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680575629745</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,7 +285,8 @@
     <MESSAGE value="add setterInjectedController-sample-#02-tiny update" />
     <MESSAGE value="add profile sample" />
     <MESSAGE value="add life cylcle demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="add life cylcle demo" />
+    <MESSAGE value="add git ignore 파일수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="add git ignore 파일수정" />
   </component>
   <component name="WindowStateProjectService">
     <state x="997" y="543" key="#Notifications" timestamp="1680484696153">
@@ -308,6 +325,10 @@
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
     <state x="1047" y="466" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680503281865" />
+    <state x="166" y="92" width="2302" height="1256" key="DiffContextDialog" timestamp="1680581527999">
+      <screen x="74" y="0" width="2486" height="1440" />
+    </state>
+    <state x="166" y="92" width="2302" height="1256" key="DiffContextDialog/74.0.2486.1440/2560.349.1920.1080@74.0.2486.1440" timestamp="1680581527999" />
     <state x="836" y="474" key="FileChooserDialogImpl" timestamp="1680489681887">
       <screen x="74" y="0" width="2486" height="1440" />
     </state>
